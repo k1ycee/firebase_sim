@@ -11,5 +11,15 @@
         "*.local"
       ]
     }
-  ]
+  ],
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "ui": {
+      "enabled": true,
+      "port": 3000
+    },
+    "singleProjectMode": true
+  }
 }
